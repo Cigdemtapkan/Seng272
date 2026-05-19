@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "javac: ISO15939_Simulator",
+      "type": "shell",
+      "command": "\"C:\\Users\\Asus\\.jdks\\openjdk-25.0.1\\bin\\javac.exe\" -encoding UTF-8 -d bin src/model/*.java src/controller/*.java src/view/*.java",
+      "options": {
+        "cwd": "${workspaceFolder}/ISO15939_Simulator"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$javac"]
+    },
+    {
+      "label": "java: Run ISO15939_Simulator",
+      "type": "shell",
+      "command": "\"C:\\Users\\Asus\\.jdks\\openjdk-25.0.1\\bin\\java.exe\" -cp bin view.MainFrame",
+      "options": {
+        "cwd": "${workspaceFolder}/ISO15939_Simulator"
+      },
+      "group": "none",
+      "dependsOn": "javac: ISO15939_Simulator",
+      "problemMatcher": []
+    }
+  ]
+}

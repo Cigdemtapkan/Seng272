@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ISO15939 Simulator (MainFrame)" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="view.MainFrame" />
+    <module name="SENG272-Projesi" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ISO15939_Simulator" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

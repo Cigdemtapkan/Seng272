@@ -1,0 +1,19 @@
+{
+  "java.jdt.ls.java.home": "C:\\Users\\Asus\\.jdks\\openjdk-25.0.1",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-25",
+      "path": "C:\\Users\\Asus\\.jdks\\openjdk-25.0.1",
+      "default": true
+    }
+  ],
+  "java.project.sourcePaths": ["ISO15939_Simulator/src"],
+  "java.project.outputPath": "ISO15939_Simulator/bin",
+  "java.project.referencedLibraries": [],
+  "java.import.maven.enabled": false,
+  "java.import.gradle.enabled": false,
+  "terminal.integrated.env.windows": {
+    "JAVA_HOME": "C:\\Users\\Asus\\.jdks\\openjdk-25.0.1",
+    "PATH": "C:\\Users\\Asus\\.jdks\\openjdk-25.0.1\\bin;${env:PATH}"
+  }
+}

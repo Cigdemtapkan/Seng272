@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "ISO15939 Simulator (MainFrame)",
+      "request": "launch",
+      "mainClass": "view.MainFrame",
+      "cwd": "${workspaceFolder}/ISO15939_Simulator",
+      "preLaunchTask": "javac: ISO15939_Simulator",
+      "classPaths": ["${workspaceFolder}/ISO15939_Simulator/bin"],
+      "modulePaths": []
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome against localhost",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
